@@ -1,0 +1,53 @@
+/* Pages */
+
+.page1 {
+  height: 800px;
+  background-color: rgb(255, 255, 255, 0.5);
+  padding: 10px;
+}
+
+.content1 {
+    background-color: rgb(255, 255, 255, 0.8);
+    padding-right: 100px;
+    height: 99%;
+    width: 77%;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+#portfolio-img, #works {
+  position: absolute;
+  right: 0;
+  z-index: 10;
+  margin-top: 150px;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  border-top: 2px solid rgba(51, 51, 51, 0.7);
+  border-bottom: 2px solid rgba(51, 51, 51, 0.7);
+  border-left: 2px solid rgba(51, 51, 51, 0.7);
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+#works {
+  background-color: #274f47;
+  height: 460px;
+  width: 460px;
+  color: #ce9e92;
+}
+
+.title3 {
+  font-family: 'Gochi Hand', cursive;
+  font-size: 65px;
+  color: #333;
+  float: right;
+  margin-top: 3%;
+  margin-right: 2%;
+  z-index: 9;
+}
+
+#about-me {
+  margin-left: 17%;
+  margin-right: 17%;
+  padding-top: 140px;
+  text-align: justify;
+  font-size: 18px;
+}
